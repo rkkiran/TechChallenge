@@ -1,0 +1,309 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "As a end user login on Feedr, add credits and save preferences",
+    "line": 1,
+    "id": "as-a-end-user-login-on-feedr,-add-credits-and-save-preferences",
+    "tags": [],
+    "uri": "Tests\\featureFiles\\techTask.feature",
+    "elements": [
+      {
+        "id": "as-a-end-user-login-on-feedr,-add-credits-and-save-preferences;as-a-cloud-canteen-user-i-add-credits-to-the-my-acount-then-pay-for-credits-to-be-added-to-my-account",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a Cloud Canteen user I add credits to the my acount then pay for credits to be added to my account",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page at 'https://staging.feedr.co'",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click Sign in and enter my credentials 'qatestuser@feedr.co' and 'QaTest2020'",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I am shown the Feedr Cloud Canteen home page",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "that I have accessed the 'CC Credits' page",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select a credit bundle with '5 credits' by clicking 'Top Up Now'",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the transaction of added '5' credits is recorded on the page",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 620000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-end-user-login-on-feedr,-add-credits-and-save-preferences;as-a-cloud-canteen-user-select-the-choices-and-save-under-food-requirements",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As a Cloud Canteen user select the choices and save under food requirements",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page at 'https://staging.feedr.co'",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click Sign in and enter my credentials 'qatestuser@feedr.co' and 'QaTest2020'",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I am shown the Feedr Cloud Canteen home page",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "that I have accessed the 'Preferences' page",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I select 'Allergic to Nuts' and 'Vegetarian' under 'food requirements' and click on save changes",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the updated 'Allergic to Nuts' and 'Vegetarian' 'requirements' choices are saved to my profile",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1289000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-end-user-login-on-feedr,-add-credits-and-save-preferences;as-a-cloud-canteen-user-select-the-choices-and-save-under-lifestyle-choices",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "As a Cloud Canteen user select the choices and save under Lifestyle choices",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page at 'https://staging.feedr.co'",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click Sign in and enter my credentials 'qatestuser@feedr.co' and 'QaTest2020'",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I am shown the Feedr Cloud Canteen home page",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "that I have accessed the 'Preferences' page",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1932000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select 'Salad Fan' and 'Hot Hot Hot' under 'Lifestyle choices' and click on save changes",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the updated 'Salad Fan' and 'Hot Hot Hot' 'lifestyle' choices are saved to my profile",
+            "match": {
+              "location": "Tests\\stepDefinition\\techTask.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
